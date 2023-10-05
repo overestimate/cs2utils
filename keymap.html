@@ -1,0 +1,16 @@
+<head>
+    <title>cs2utils - keymap viewer</title>
+    <script src="./js/keycode-map.js"></script>
+</head>
+
+<body>
+    <h1>press a key</h1>
+    <h2>key pressed: <span class="keyview">none</span></h2>
+    <script>
+        onkeydown = (e) => { 
+            e.preventDefault();
+            let key = convert_keycode(e.code);
+            document.querySelector(".keyview").innerHTML = key == undefined ? "&lt;not supported by cs2&gt;" : key;
+        }
+    </script>
+</body>

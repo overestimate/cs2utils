@@ -1,4 +1,4 @@
-# s2utils (c) 2023- overestimate. LGPL-3.0-only, see github.com/overestimate/cs2utils for source + full license
+# cs2utils (c) 2023- overestimate. LGPL-3.0-only, see github.com/overestimate/cs2utils for source + full license
 import os
 import json
 
